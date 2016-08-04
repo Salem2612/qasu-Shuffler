@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qasu.qasunetrunnerdraft"
+    android:versionCode="010602"
+    android:versionName="@string/version" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black" >
+        <activity
+            android:name=".NetrunnerDraftMainActivity"
+            android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NetrunnerDraftTabActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black">
+        </activity>
+
+        <activity android:name="com.qasu.qasushuffler.GenericHomeActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Black">
+        </activity>
+
+        <activity android:name="com.qasu.qasushuffler.GenericDeckActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Black">
+        </activity>
+
+        <activity android:name="com.qasu.qasushuffler.GenericAboutActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Black">
+        </activity>
+
+        <activity android:name="com.qasu.qasushuffler.GenericSettingsActivity"
+                  android:label="@string/home_title_settings"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Black">
+        </activity>
+
+        <activity android:name="com.google.ads.AdActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+
+    </application>
+
+</manifest>
