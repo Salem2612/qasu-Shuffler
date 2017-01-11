@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Expansions -->
+    <integer name="nb_expansions">24</integer>
+
+    <!-- Number of decks -->
+    <integer name="nb_decks">8</integer>
+
+    <!-- Number of criteria -->
+    <integer name="nb_criteria">13</integer>
+
+</resources>

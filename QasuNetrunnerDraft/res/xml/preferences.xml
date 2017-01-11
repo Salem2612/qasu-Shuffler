@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Language -->
+    <PreferenceCategory android:title="@string/settings_language_category">
+      <ListPreference
+        android:key="@string/key_language"
+        android:title="@string/settings_language_title"
+        android:summary="English"
+        android:entries="@array/settings_array_language"
+        android:entryValues="@array/settings_array_locale"
+        android:defaultValue="en"
+        />
+    </PreferenceCategory>   <!-- Language -->
+
+    <!-- Selected Expansions -->
+    <PreferenceCategory android:title="@string/settings_selected_expansions_category">
+        <!-- Preferences Selected Expansions -->
+        <PreferenceScreen
+            android:title="@string/settings_selected_expansions_title"
+            android:summary="@string/settings_selected_expansions_summary"
+            >
+            <CheckBoxPreference android:key="@string/key_selected_exp_cyber_war" android:title="@string/exp_cyber_war" android:defaultValue="true"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_core_set" android:title="@string/exp_core_set" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_what_lies_ahead" android:title="@string/exp_what_lies_ahead" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_trace_amount" android:title="@string/exp_trace_amount" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_cyber_exodus" android:title="@string/exp_cyber_exodus" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_a_study_in_static" android:title="@string/exp_a_study_in_static" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_humanitys_shadow" android:title="@string/exp_humanitys_shadow" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_future_proof" android:title="@string/exp_future_proof" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_creation_and_control" android:title="@string/exp_creation_and_control" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_opening_moves" android:title="@string/exp_opening_moves" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_second_thoughts" android:title="@string/exp_second_thoughts" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_mala_tempora" android:title="@string/exp_mala_tempora" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_true_colors" android:title="@string/exp_true_colors" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_fear_and_loathing" android:title="@string/exp_fear_and_loathing" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_double_time" android:title="@string/exp_double_time" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_honor_and_profit" android:title="@string/exp_honor_and_profit" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_upstalk" android:title="@string/exp_upstalk" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_the_spaces_between" android:title="@string/exp_the_spaces_between" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_first_contact" android:title="@string/exp_first_contact" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_up_and_over" android:title="@string/exp_up_and_over" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_all_that_remains" android:title="@string/exp_all_that_remains" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_the_source" android:title="@string/exp_the_source" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_order_and_chaos" android:title="@string/exp_order_and_chaos" android:defaultValue="false"/>
+            <CheckBoxPreference android:key="@string/key_selected_exp_stimhack_draft_cube" android:title="@string/exp_stimhack_draft_cube" android:defaultValue="false"/>
+            </PreferenceScreen>
+    </PreferenceCategory>   <!-- Selected Expansions -->
+
+</PreferenceScreen>

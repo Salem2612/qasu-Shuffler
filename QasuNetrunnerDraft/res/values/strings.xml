@@ -1,0 +1,795 @@
+<resources>
+    <!-- ********************** -->
+    <!-- Specific texts         -->
+    <!-- Just Overload          -->
+    <!-- ********************** -->
+    <!-- Application -->
+    <string name="app_name">qasu Netrunner Draft</string>
+    <string name="version">1.6.2</string>
+
+    <!-- Names of the Decks sorted by DECK_ID -->
+    <string-array name="array_decks">
+        <item>@string/deck_0</item>
+        <item>@string/deck_1</item>
+        <item>@string/deck_2</item>
+        <item>@string/deck_3</item>
+        <item>@string/deck_4</item>
+        <item>@string/deck_5</item>
+        <item>@string/deck_6</item>
+        <item>@string/deck_7</item>
+    </string-array>
+
+    <!-- Names of the Expansions, sorted by EXP_ID -->
+    <string-array name="array_expansions">
+        <item>@string/exp_cyber_war</item>
+        <item>@string/exp_core_set</item>
+        <item>@string/exp_what_lies_ahead</item>
+        <item>@string/exp_trace_amount</item>
+        <item>@string/exp_cyber_exodus</item>
+        <item>@string/exp_a_study_in_static</item>
+        <item>@string/exp_humanitys_shadow</item>
+        <item>@string/exp_future_proof</item>
+        <item>@string/exp_creation_and_control</item>
+        <item>@string/exp_opening_moves</item>
+        <item>@string/exp_second_thoughts</item>
+        <item>@string/exp_mala_tempora</item>
+        <item>@string/exp_true_colors</item>
+        <item>@string/exp_fear_and_loathing</item>
+        <item>@string/exp_double_time</item>
+        <item>@string/exp_honor_and_profit</item>
+        <item>@string/exp_upstalk</item>
+        <item>@string/exp_the_spaces_between</item>
+        <item>@string/exp_first_contact</item>
+        <item>@string/exp_up_and_over</item>
+        <item>@string/exp_all_that_remains</item>
+        <item>@string/exp_the_source</item>
+        <item>@string/exp_order_and_chaos</item>
+        <item>@string/exp_stimhack_draft_cube</item>
+    </string-array>
+
+    <!-- Array of the keys of the selected expansions -->
+    <string-array name="array_keys_selected_expansions">
+        <item>@string/key_selected_exp_cyber_war</item>
+        <item>@string/key_selected_exp_core_set</item>
+        <item>@string/key_selected_exp_what_lies_ahead</item>
+        <item>@string/key_selected_exp_trace_amount</item>
+        <item>@string/key_selected_exp_cyber_exodus</item>
+        <item>@string/key_selected_exp_a_study_in_static</item>
+        <item>@string/key_selected_exp_humanitys_shadow</item>
+        <item>@string/key_selected_exp_future_proof</item>
+        <item>@string/key_selected_exp_creation_and_control</item>
+        <item>@string/key_selected_exp_opening_moves</item>
+        <item>@string/key_selected_exp_second_thoughts</item>
+        <item>@string/key_selected_exp_mala_tempora</item>
+        <item>@string/key_selected_exp_true_colors</item>
+        <item>@string/key_selected_exp_fear_and_loathing</item>
+        <item>@string/key_selected_exp_double_time</item>
+        <item>@string/key_selected_exp_honor_and_profit</item>
+        <item>@string/key_selected_exp_upstalk</item>
+        <item>@string/key_selected_exp_the_spaces_between</item>
+        <item>@string/key_selected_exp_first_contact</item>
+        <item>@string/key_selected_exp_up_and_over</item>
+        <item>@string/key_selected_exp_all_that_remains</item>
+        <item>@string/key_selected_exp_the_source</item>
+        <item>@string/key_selected_exp_order_and_chaos</item>
+        <item>@string/key_selected_exp_stimhack_draft_cube</item>
+    </string-array>
+
+    <!-- Keys of the selected expansions settings -->
+    <string name="key_selected_exp_cyber_war">key_selected_exp_cyber_war</string>
+    <string name="key_selected_exp_core_set">key_selected_exp_core_set</string>
+    <string name="key_selected_exp_what_lies_ahead">key_selected_exp_what_lies_ahead</string>
+    <string name="key_selected_exp_trace_amount">key_selected_exp_trace_amount</string>
+    <string name="key_selected_exp_cyber_exodus">key_selected_exp_cyber_exodus</string>
+    <string name="key_selected_exp_a_study_in_static">key_selected_exp_a_study_in_static</string>
+    <string name="key_selected_exp_humanitys_shadow">key_selected_exp_humanitys_shadow</string>
+    <string name="key_selected_exp_future_proof">key_selected_exp_future_proof</string>
+    <string name="key_selected_exp_creation_and_control">key_selected_exp_creation_and_control</string>
+    <string name="key_selected_exp_opening_moves">key_selected_exp_opening_moves</string>
+    <string name="key_selected_exp_second_thoughts">key_selected_exp_second_thoughts</string>
+    <string name="key_selected_exp_mala_tempora">key_selected_exp_mala_tempora</string>
+    <string name="key_selected_exp_true_colors">key_selected_exp_true_colors</string>
+    <string name="key_selected_exp_fear_and_loathing">key_selected_exp_fear_and_loathing</string>
+    <string name="key_selected_exp_double_time">key_selected_exp_double_time</string>
+    <string name="key_selected_exp_honor_and_profit">key_selected_exp_honor_and_profit</string>
+    <string name="key_selected_exp_upstalk">key_selected_exp_upstalk</string>
+    <string name="key_selected_exp_the_spaces_between">key_selected_exp_the_spaces_between</string>
+    <string name="key_selected_exp_first_contact">key_selected_exp_first_contact</string>
+    <string name="key_selected_exp_up_and_over">key_selected_exp_up_and_over</string>
+    <string name="key_selected_exp_all_that_remains">key_selected_exp_all_that_remains</string>
+    <string name="key_selected_exp_the_source">key_selected_exp_the_source</string>
+    <string name="key_selected_exp_order_and_chaos">key_selected_exp_order_and_chaos</string>
+    <string name="key_selected_exp_stimhack_draft_cube">key_selected_exp_stimhack_draft_cube</string>
+
+    <!-- ********************** -->
+    <!-- Specific texts         -->
+    <!-- Overload and translate -->
+    <!-- ********************** -->
+
+    <!-- Application -->
+    <string name="app_description">
+        Shuffle the 4 Corp draft decks and the 4 Runner draft decks to play Android Netrunner Draft with the official draft rules. Choose the number of Core Sets and Expansions to use in the Expansions menu then click on Shuffle !\n
+        \n
+        Decks Rules :\n
+         - Minimum 30 cards per deck\n
+         - No influence limitation\n
+         - 30-34 cards : 14-15 Agenda points\n
+         - 35-39 cards : 16-17 Agenda points\n
+         - 40-44 cards : 18-19 Agenda points\n
+         - 45-49 cards : 20-21 Agenda points\n
+        \n
+        Corp Starter Set :\n
+         - 5 x Priority Requisition\n
+         - 2 x PAD Campaign\n
+        Official Runner Starter Set :\n
+        - 2 x Armitage Codebusting\n
+        - 3 x Crypsis\n
+        Alternative Runner Starter Set :\n
+        - 2 x Armitage Codebusting\n
+        - 1 x Force of Nature\n
+        - 1 x Aurora\n
+        - 1 x Pipeline
+    </string>
+    <!-- \n\nDefault draft rules :\n - 4 Corp decks per player\n - 4 Runner decks per player\n - 10 cards per deck\nCorp deck :\n - 1 to 2 Agendas\n - 5 to 6 Ices\n - 1 to 2 Operations\n - 1 Asset or Upgrade\nRunner deck :\n - 3 Programs (including 2 Icebreakers)\n - 3 Hardwares\n - 2 Resources\n - 2 Events-->
+
+    <!-- Decks EN -->
+    <string name="deck_0">Corp 1</string>
+    <string name="deck_1">Corp 2</string>
+    <string name="deck_2">Corp 3</string>
+    <string name="deck_3">Corp 4</string>
+    <string name="deck_4">Runner 1</string>
+    <string name="deck_5">Runner 2</string>
+    <string name="deck_6">Runner 3</string>
+    <string name="deck_7">Runner 4</string>
+
+    <!-- Exp EN -->
+    <string name="exp_cyber_war">Cyber War</string>
+    <string name="exp_core_set">Core Set</string>
+    <string name="exp_what_lies_ahead">What Lies Ahead</string>
+    <string name="exp_trace_amount">Trace Amount</string>
+    <string name="exp_cyber_exodus">Cyber Exodus</string>
+    <string name="exp_a_study_in_static">A Study in Static</string>
+    <string name="exp_humanitys_shadow">Humanity\'s Shadow</string>
+    <string name="exp_future_proof">Future Proof</string>
+    <string name="exp_creation_and_control">Creation And Control</string>
+    <string name="exp_opening_moves">Opening Moves</string>
+    <string name="exp_second_thoughts">Second Thoughts</string>
+    <string name="exp_mala_tempora">Mala Tempora</string>
+    <string name="exp_true_colors">True Colors</string>
+    <string name="exp_fear_and_loathing">Fear And Loathing</string>
+    <string name="exp_double_time">Double Time</string>
+    <string name="exp_honor_and_profit">Honor And Profit</string>
+    <string name="exp_upstalk">Upstalk</string>
+    <string name="exp_the_spaces_between">The Spaces Between</string>
+    <string name="exp_first_contact">First Contact</string>
+    <string name="exp_up_and_over">Up and Over</string>
+    <string name="exp_all_that_remains">All That Remains</string>
+    <string name="exp_the_source">The Source</string>
+    <string name="exp_order_and_chaos">Order and Chaos</string>
+    <string name="exp_stimhack_draft_cube">StimHack Draft Cube</string>
+
+    <!-- Criteria EN -->
+    <string name="criteria_0">Card</string>
+    <string name="criteria_1">Corp</string>
+    <string name="criteria_2">Runner</string>
+    <string name="criteria_3">Agenda</string>
+    <string name="criteria_4">Asset</string>
+    <string name="criteria_5">Upgrade</string>
+    <string name="criteria_6">Operation</string>
+    <string name="criteria_7">Ice</string>
+    <string name="criteria_8">Program</string>
+    <string name="criteria_9">Icebreaker</string>
+    <string name="criteria_10">Hardware</string>
+    <string name="criteria_11">Resource</string>
+    <string name="criteria_12">Event</string>
+    <string name="criteria_13">Indentity</string>
+
+    <!-- Cards EN -->
+    <string name="accelerated_beta_test">Accelerated Beta Test</string>
+    <string name="access_to_globalsec">Access to Globalsec</string>
+    <string name="account_siphon">Account Siphon</string>
+    <string name="adonis_campaign">Adonis Campaign</string>
+    <string name="aesops_pawnshop">Aesop\'s Pawnshop</string>
+    <string name="aggressive_negotiation">Aggressive Negotiation</string>
+    <string name="aggressive_secretary">Aggressive Secretary</string>
+    <string name="akamatsu_mem_chip">Akamatsu Mem Chip</string>
+    <string name="akitaro_watanabe">Akitaro Watanabe</string>
+    <string name="all_nighter">All-nighter</string>
+    <string name="amazon_industrial_zone">Amazon Industrial Zone</string>
+    <string name="anonymous_tip">Anonymous Tip</string>
+    <string name="archer">Archer</string>
+    <string name="archived_memories">Archived Memories</string>
+    <string name="armitage_codebusting">Armitage Codebusting</string>
+    <string name="ash_2x3zb9cy">Ash 2X3ZB9CY</string>
+    <string name="astroscript_pilot_program">Astroscript Pilot Program</string>
+    <string name="aurora">Aurora</string>
+    <string name="bank_job">Bank Job</string>
+    <string name="battering_ram">Battering Ram</string>
+    <string name="beanstalk_royalties">Beanstalk Royalties</string>
+    <string name="bernice_mai">Bernice Mai</string>
+    <string name="big_brother">Big Brother</string>
+    <string name="biotic_labor">Biotic Labor</string>
+    <string name="braintrust">Braintrust</string>
+    <string name="breaking_news">Breaking News</string>
+    <string name="bullfrog">Bullfrog</string>
+    <string name="burke_bugs">Burke Bugs</string>
+    <string name="caduceus">Caduceus</string>
+    <string name="cell_portal">Cell Portal</string>
+    <string name="chilo_city_grid">ChiLo City Grid</string>
+    <string name="chimera">Chimera</string>
+    <string name="chum">Chum</string>
+    <string name="closed_accounts">Closed Accounts</string>
+    <string name="commercialization">Commercialization</string>
+    <string name="compromised_employee">Compromised Employee</string>
+    <string name="corporate_troubleshooter">Corporate Troubleshooter</string>
+    <string name="corporate_war">Corporate War</string>
+    <string name="corroder">Corroder</string>
+    <string name="cortez_chip">Cortez Chip</string>
+    <string name="crash_space">Crash Space</string>
+    <string name="creeper">Creeper</string>
+    <string name="crescentus">Crescentus</string>
+    <string name="crypsis">Crypsis</string>
+    <string name="cyberfeeder">Cyberfeeder</string>
+    <string name="darwin">Darwin</string>
+    <string name="data_dealer">Data Dealer</string>
+    <string name="data_hound">Data Hound</string>
+    <string name="data_leak_reversal">Data Leak Reversal</string>
+    <string name="data_mine">Data Mine</string>
+    <string name="data_raven">Data Raven</string>
+    <string name="datasucker">Datasucker</string>
+    <string name="decoy">Decoy</string>
+    <string name="dedicated_response_team">Dedicated Response Team</string>
+    <string name="dedicated_server">Dedicated Server</string>
+    <string name="deep_thought">Deep Thought</string>
+    <string name="deja_vu">Deja Vu</string>
+    <string name="demolition_run">Demolition Run</string>
+    <string name="desperado">Desperado</string>
+    <string name="deus_x">Deus X</string>
+    <string name="diesel">Diesel</string>
+    <string name="dinosaurus">Dinosaurus</string>
+    <string name="disrupter">Disrupter</string>
+    <string name="djinn">Djinn</string>
+    <string name="doppelganger">Doppelganger</string>
+    <string name="draco">Draco</string>
+    <string name="dyson_mem_chip">Dyson Mem Chip</string>
+    <string name="e3_feedback_implants">E3 Feedback Implants</string>
+    <string name="easy_mark">Easy Mark</string>
+    <string name="edge_of_world">Edge of World</string>
+    <string name="eli_1_0">Eli 1.0</string>
+    <string name="emergency_shutdown">Emergency Shutdown</string>
+    <string name="encryption_protocol">Encryption Protocol</string>
+    <string name="enigma">Enigma</string>
+    <string name="eve_campaign">Eve Campaign</string>
+    <string name="executive_retreat">Executive Retreat</string>
+    <string name="experiential_data">Experiential Data</string>
+    <string name="faerie">Faerie</string>
+    <string name="false_lead">False Lead</string>
+    <string name="femme_fatale">Femme Fatale</string>
+    <string name="fetal_ai">Fetal AI</string>
+    <string name="flare">Flare</string>
+    <string name="force_of_nature">Force of Nature</string>
+    <string name="forged_activation_order">Forged Activation Orders</string>
+    <string name="foxfire">Foxfire</string>
+    <string name="freelancer">Freelancer</string>
+    <string name="ghost_branch">Ghost Branch</string>
+    <string name="gordian_blade">Gordian Blade</string>
+    <string name="government_contracts">Government Contracts</string>
+    <string name="green_level_clearance">Green Level Clearance</string>
+    <string name="grimoire">Grimoire</string>
+    <string name="hadrians_wall">Hadrian\'s Wall</string>
+    <string name="hedge_fund">Hedge Fund</string>
+    <string name="heimdall_1_0">Heimdall 1.0</string>
+    <string name="hokusai_grid">Hokusai Grid</string>
+    <string name="hostile_takeover">Hostile Takeover</string>
+    <string name="hourglass">Hourglass</string>
+    <string name="hq_interface">Hq Interface</string>
+    <string name="hunter">Hunter</string>
+    <string name="ice_carver">Ice Carver</string>
+    <string name="ice_wall">Ice Wall</string>
+    <string name="ichi_1_0">Ichi 1.0</string>
+    <string name="imp">Imp</string>
+    <string name="indexing">Indexing</string>
+    <string name="infiltration">Infiltration</string>
+    <string name="inside_job">Inside Job</string>
+    <string name="inside_man">Inside Man</string>
+    <string name="janus_1_0">Janus 1.0</string>
+    <string name="joshua_b">Joshua B.</string>
+    <string name="kati_jones">Kati Jones</string>
+    <string name="kraken">Kraken</string>
+    <string name="lemuria_codecracker">Lemuria Codecracker</string>
+    <string name="liberated_account">Liberated Account</string>
+    <string name="magnum_opus">Magnum Opus</string>
+    <string name="mandatory_upgrades">Mandatory Upgrades</string>
+    <string name="marked_accounts">Marked Accounts</string>
+    <string name="matrix_analyzer">Matrix Analyzer</string>
+    <string name="medium">Medium</string>
+    <string name="melange_mining_corp">Melange Mining Corp.</string>
+    <string name="midori">Midori</string>
+    <string name="midseason_replacements">Midseason Replacements</string>
+    <string name="mimic">Mimic</string>
+    <string name="modded">Modded</string>
+    <string name="morning_star">Morning Star</string>
+    <string name="mr_li">Mr Li</string>
+    <string name="muresh_bodysuit">Muresh Bodysuit</string>
+    <string name="nerve_agent">Nerve Agent</string>
+    <string name="net_police">Net Police</string>
+    <string name="net_shield">Networking</string>
+    <string name="networking">Net Shield</string>
+    <string name="neural_emp">Neural EMP</string>
+    <string name="neural_katana">Neural Katana</string>
+    <string name="new_angeles_city_hall">New Angeles City Hall</string>
+    <string name="ninja">Ninja</string>
+    <string name="nisei_mk_ii">Nisei MK II</string>
+    <string name="notoriety">Notoriety</string>
+    <string name="oversight_ai">Oversight AI</string>
+    <string name="pad_campaign">PAD Campaign</string>
+    <string name="parasite">Parasite</string>
+    <string name="peacock">Peacock</string>
+    <string name="personal_workshop">Personal Workshop</string>
+    <string name="pheromones">Pheromones</string>
+    <string name="pipeline">Pipeline</string>
+    <string name="plascrete_carapace">Plascrete Carapace</string>
+    <string name="pop_up_window">Pop-up Window</string>
+    <string name="posted_bounty">Posted Bounty</string>
+    <string name="power_grid_overload">Power Grid Overload</string>
+    <string name="precognition">Precognition</string>
+    <string name="priority_requisition">Priority Requisition</string>
+    <string name="private_contracts">Private Contracts</string>
+    <string name="private_security_force">Private Security Force</string>
+    <string name="project_atlas">Project Atlas</string>
+    <string name="project_beale">Project Beal</string>
+    <string name="project_junebug">Project Junebug</string>
+    <string name="project_vitruvius">Project Vitruvius</string>
+    <string name="psychographics">Psychographics</string>
+    <string name="public_sympathy">Public Sympathy</string>
+    <string name="quality_time">Quality Time</string>
+    <string name="rabbit_hole">Rabbit Hole</string>
+    <string name="rd_interface">RD Interface</string>
+    <string name="red_herrings">Red Herrings</string>
+    <string name="replicator">Replicator</string>
+    <string name="research_station">Research Station</string>
+    <string name="restructured_datapool">Restructured Datapool</string>
+    <string name="retrieval_run">Retrieval Run</string>
+    <string name="rework">Rework</string>
+    <string name="ronin">Ronin</string>
+    <string name="rototurret">Rototurret</string>
+    <string name="ruhr_valley">Ruhr Valley</string>
+    <string name="sacrificial_construct">Sacrificial Construct</string>
+    <string name="salvage">Salvage</string>
+    <string name="sansan_city_grid">SanSan City Grid</string>
+    <string name="satellite_uplink">Satellite Uplink</string>
+    <string name="scorched_earth">Scorched Earth</string>
+    <string name="scrubber">Scrubber</string>
+    <string name="sea_source">SEA Source</string>
+    <string name="security_subcontract">Security Subcontract</string>
+    <string name="sensei">Sensei</string>
+    <string name="shadow">Shadow</string>
+    <string name="sherlock_1_0">Sherlock 1.0</string>
+    <string name="shipment_from_kaguya">Shipment From Kaguya</string>
+    <string name="shipment_from_mirromorph">Shipment from Mirromorph</string>
+    <string name="simone_diego">Simone Diego</string>
+    <string name="snare">Snare!</string>
+    <string name="sneakdoor_beta">Sneakdoor Beta</string>
+    <string name="snitch">Snitch</string>
+    <string name="snowball">Snowball</string>
+    <string name="snowflake">Snowflake</string>
+    <string name="special_order">Special Order</string>
+    <string name="spinal_modem">Spinal Modem</string>
+    <string name="stimhack">Stimhack</string>
+    <string name="sunset">Sunset</string>
+    <string name="sure_gamble">Sure Gamble</string>
+    <string name="surge">Surge</string>
+    <string name="test_run">Test Run</string>
+    <string name="the_helpful_ai">The Helpful AI</string>
+    <string name="the_makers_eye">The Maker\'s Eye</string>
+    <string name="the_personal_touch">The Personal Touch</string>
+    <string name="the_toolbox">The Toolbox</string>
+    <string name="tinkering">Tinkering</string>
+    <string name="tmi">TMI</string>
+    <string name="tollbooth">Tollbooth</string>
+    <string name="trick_of_light">Trick of Light</string>
+    <string name="tyrant">Tyrant</string>
+    <string name="underworld_contact">Underworld Contact</string>
+    <string name="uroboros">Uroboros</string>
+    <string name="vamp">Vamp</string>
+    <string name="viktor_1_0">Viktor 1.0</string>
+    <string name="viper">Viper</string>
+    <string name="wall_of_static">Wall of Static</string>
+    <string name="wall_of_thorns">Wall of Thorns</string>
+    <string name="whirlpool">Whirlpool</string>
+    <string name="woodcutter">Woodcutter</string>
+    <string name="wyldside">Wyldside</string>
+    <string name="wyrm">Wyrm</string>
+    <string name="xanadu">Xanadu</string>
+    <string name="yog_0">Yog.0</string>
+    <string name="zaibatsu_loyalty">Zaibatsu Loyalty</string>
+    <string name="zu_13_key_master">ZU.13 Key Master</string>
+    <string name="director_haas_pet_project">Director Haas\' Pet Project</string>
+    <string name="efficiency_committee">Efficiency Committee</string>
+    <string name="project_wotan">Project Wotan</string>
+    <string name="sentinel_defense_program">Sentinel Defense Program</string>
+    <string name="alix_t4lbo7">Alix T4LBO7</string>
+    <string name="cerebral_overwritter">Cerebral Overwritter</string>
+    <string name="director_haas">Director Haas</string>
+    <string name="haas_arcology_ai">Haas Arcology AI</string>
+    <string name="thomas_haas">Thomas Haas</string>
+    <string name="bioroid_efficiency_research">Bioroid Efficiency Research</string>
+    <string name="successful_demonstration">Successful Demonstration</string>
+    <string name="heimdall_2_0">Heimdall 2.0</string>
+    <string name="howler">Howler</string>
+    <string name="ichi_2_0">Ichi 2.0</string>
+    <string name="minelayer">Minelayer</string>
+    <string name="viktor_2_0">Viktor 2.0</string>
+    <string name="zed_1_0">Zed 1.0</string>
+    <string name="awakening_center">Awakening Center</string>
+    <string name="tyrs_hand">Tyr\'s Hand</string>
+    <string name="gila_hands_arcology">Gila Hands Arcology</string>
+    <string name="levy_university">Levy Unisersity</string>
+    <string name="server_diagnostics">Server Diagnostics</string>
+    <string name="bastion">Bastion</string>
+    <string name="datapike">Datapike</string>
+    <string name="escher">Escher</string>
+    <string name="exploratory_romp">Exploratory Romp</string>
+    <string name="freelance_coding_contract">Freelance Coding Contract</string>
+    <string name="scavenge">Scavenge</string>
+    <string name="levy_ar_lab_access">Levy AR Lab Access</string>
+    <string name="monolith">Monolith</string>
+    <string name="feedback_filter">Feedback Filter</string>
+    <string name="clone_chip">Clone Chip</string>
+    <string name="omni_drive">Omni-Drive</string>
+    <string name="atman">Atman</string>
+    <string name="cloak">Cloak</string>
+    <string name="dagger">Dagger</string>
+    <string name="chakana">Chakana</string>
+    <string name="cyber_cypher">Cyber-Cypher</string>
+    <string name="paricia">Paricia</string>
+    <string name="self_modifying_code">Self-modifying Code</string>
+    <string name="sahasrara">Sahasrara</string>
+    <string name="inti">Inti</string>
+    <string name="professional_contacts">Professional Contacts</string>
+    <string name="borrowed_satellite">Borrowed Satellite</string>
+    <string name="ice_analyzer">Ice Analyzer</string>
+    <string name="dirty_laundry">Dirty Laundry</string>
+    <string name="daily_casts">Daily Casts</string>
+    <string name="same_old_thing">Same Old Thing</string>
+    <string name="the_source">The Source</string>
+    <string name="frame_job">Frame Job</string>
+    <string name="pawn">Pawn</string>
+    <string name="rook">Rook</string>
+    <string name="hostage">Hostage</string>
+    <string name="gorman_drip_v1">Gorman Drip v1</string>
+    <string name="lockpick">Lockpick</string>
+    <string name="false_echo">False Echo</string>
+    <string name="motivation">Motivation</string>
+    <string name="john_masanori">John Masanori</string>
+    <string name="project_ares">Project Ares</string>
+    <string name="next_bronze">NEXT Bronze</string>
+    <string name="celebrity_gift">Celebrity Gift</string>
+    <string name="himitsu_bako">Himitsu-Bako</string>
+    <string name="character_assassination">Character Assassination</string>
+    <string name="jackson_howard">Jackson Howard</string>
+    <string name="invasion_of_privacy">Invasion of Privacy</string>
+    <string name="geothermal_fracking">Geothermal Fracking</string>
+    <string name="swarm">Swarm</string>
+    <string name="cyberdex_trial">Cyberdex Trial</string>
+    <string name="grim">Grim</string>
+    <string name="bishop">Bishop</string>
+    <string name="scheherazade">Scheherazade</string>
+    <string name="hard_at_work">Hard at Work</string>
+    <string name="recon">Recon</string>
+    <string name="copycat">Copycat</string>
+    <string name="leviathan">Leviathan</string>
+    <string name="eureka">Eureka!</string>
+    <string name="record_reconstructor">Record Reconstructor</string>
+    <string name="prepaid_voicepad">Prepaid VoicePAD</string>
+    <string name="wotan">Wotan</string>
+    <string name="hellion_alpha_test">Hellion Alpha Test</string>
+    <string name="clone_retirement">Clone Retirement</string>
+    <string name="swordsman">Swordsman</string>
+    <string name="shipment_from_sansan">Shipment from SanSan</string>
+    <string name="muckraker">Muckraker</string>
+    <string name="the_cleaners">The Cleaners</string>
+    <string name="elizabeth_mills">Elizabeth Mills</string>
+    <string name="off_the_grid">Off the Grid</string>
+    <string name="profiteering">Profiteering</string>
+    <string name="restructure">Restructure</string>
+    <string name="deep_red">Deep Red</string>
+    <string name="knight">Knight</string>
+    <string name="running_interference">Running Interference</string>
+    <string name="expert_schedule_analyzer">Expert Schedule Analyzer</string>
+    <string name="grifter">Grifter</string>
+    <string name="torch">Torch</string>
+    <string name="woman_in_the_red_dress">Woman in the Red Dress</string>
+    <string name="raymond_flint">Raymond Flint</string>
+    <string name="isabel_mcguire">Isabel McGuire</string>
+    <string name="hudson_1_0">Hudson 1.0</string>
+    <string name="accelerated_diagnostics">Accelerated Diagnostics</string>
+    <string name="unorthodox_predictions">Unorthodox Predictions</string>
+    <string name="sundew">Sundew</string>
+    <string name="city_surveillance">City Surveillance</string>
+    <string name="snoop">Snoop</string>
+    <string name="ireress">Ireress</string>
+    <string name="power_shutdown">Power Shutdown</string>
+    <string name="paper_wall">Paper Wall</string>
+    <string name="interns">Interns</string>
+    <string name="keyhole">Keyhole</string>
+    <string name="activist_support">Activist Support</string>
+    <string name="lawyer_up">Lawyer Up</string>
+    <string name="leverage">Leverage</string>
+    <string name="garrote">Garrote</string>
+    <string name="llds_processor">LLDS Processor</string>
+    <string name="sharpshooter">Sharpshooter</string>
+    <string name="capstone">Capstone</string>
+    <string name="starlight_crusade_funding">Starlight Crusade Funding</string>
+    <string name="rex_campaign">Rex Campaign</string>
+    <string name="fenris">Fenris</string>
+    <string name="panic_button">Panic Button</string>
+    <string name="shock">Shock!</string>
+    <string name="tsurugi">Tsurugi</string>
+    <string name="tgtbt">TGTBT</string>
+    <string name="sweeps_week">Sweeps Week</string>
+    <string name="rsvp">RSVP</string>
+    <string name="curtain_wall">Curtain Wall</string>
+    <string name="punitive_counterstrike">Punitive Counterstrike</string>
+    <string name="veterans_program">Veterans Program</string>
+    <string name="quest_completed">Quest Completed</string>
+    <string name="hemorrhage">Hemorrhage</string>
+    <string name="tallie_perrault">Tallie Perrault</string>
+    <string name="executive_wiretaps">Executive Wiretaps</string>
+    <string name="blackguard">Blackguard</string>
+    <string name="cybersolutions_mem_chip">CyberSolutions Mem Chip</string>
+    <string name="alpha">Alpha</string>
+    <string name="omega">Omega</string>
+    <string name="blackmail">Blackmail</string>
+    <string name="blue_level_clearance">Blue Level Clearance</string>
+    <string name="strongbox">Strongbox</string>
+    <string name="toshiyuki_sakai">Toshiyuki Sakai</string>
+    <string name="yagura">Yagura</string>
+    <string name="restoring_face">Restoring Face</string>
+    <string name="market_research">Market Research</string>
+    <string name="wraparound">Wraparound</string>
+    <string name="vulcan_coverup">Vulcan Coverup</string>
+    <string name="grndl_refinery">GRNDL Refinery</string>
+    <string name="subliminal_messaging">Subliminal Messaging</string>
+    <string name="singularity">Singularity</string>
+    <string name="queen_s_gambit">Queen\'s Gambit</string>
+    <string name="dyson_fractal_generator">Dyson Fractal Generator</string>
+    <string name="silencer">Silencer</string>
+    <string name="savoir_faire">Savoir-faire</string>
+    <string name="fall_guy">Fall Guy</string>
+    <string name="power_nap">Power Nap</string>
+    <string name="paintbrush">Paintbrush</string>
+    <string name="lucky_find">Lucky Find</string>
+    <string name="gyri_labyrinth">Gyri Labyrinth</string>
+    <string name="reclamation_order">Reclamation Order</string>
+    <string name="broadcast_square">Broadcast Square</string>
+    <string name="corporate_shuffle">Corporate Shuffle</string>
+    <string name="caprice_nisei">Caprice Nisei</string>
+    <string name="shinobi">Shinobi</string>
+    <string name="marker">Marker</string>
+    <string name="hive">Hive</string>
+    <string name="witness_tampering">Witness Tampering</string>
+    <string name="napd_contract">NAPD Contract</string>
+    <string name="quandary">Quandary</string>
+    <string name="house_of_knives">House of Knives</string>
+    <string name="medical_breakthrough">Medical Breakthrough</string>
+    <string name="philotic_entanglement">Philotic Entanglement</string>
+    <string name="the_future_perfect">The Future Perfect</string>
+    <string name="chairman_hiro">Chairman Hiro</string>
+    <string name="mental_health_clinic">Mental Health Clinic</string>
+    <string name="psychic_field">Psychic Field</string>
+    <string name="shi_kyu">Shi.Kyu</string>
+    <string name="tenma_line">Tenma Line</string>
+    <string name="cerebral_cast">Cerebral Cast</string>
+    <string name="medical_research_fundraiser">Medical Research Fundraiser</string>
+    <string name="mushin_no_shin">Mushin No Shin</string>
+    <string name="inazuma">Inazuma</string>
+    <string name="komainu">Komainu</string>
+    <string name="pup">Pup</string>
+    <string name="shiro">Shiro</string>
+    <string name="susanoo_no_mikoto">Susanoo-No-Mikoto</string>
+    <string name="neotokyo_grid">NeoTokyo Grid</string>
+    <string name="tori_hanzo">Tori Hanzō</string>
+    <string name="plan_b">Plan B</string>
+    <string name="guard">Guard</string>
+    <string name="rainbow">Rainbow</string>
+    <string name="diversified_portfolio">Diversified Portfolio</string>
+    <string name="fast_track">Fast Track</string>
+    <string name="calling_in_favors">Calling in Favors</string>
+    <string name="early_bird">Early Bird</string>
+    <string name="express_delivery">Express Delivery</string>
+    <string name="feint">Feint</string>
+    <string name="legwork">Legwork</string>
+    <string name="planned_assault">Planned Assault</string>
+    <string name="logos">Logos</string>
+    <string name="public_terminal">Public Terminal</string>
+    <string name="unregistered_s_and_w__35">Unregistered S and W \'35</string>
+    <string name="window">Window</string>
+    <string name="alias">Alias</string>
+    <string name="breach">Breach</string>
+    <string name="bug">Bug</string>
+    <string name="gingerbread">Gingerbread</string>
+    <string name="grappling_hook">Grappling Hook</string>
+    <string name="passport">Passport</string>
+    <string name="push_your_luck">Push Your Luck</string>
+    <string name="security_testing">Security Testing</string>
+    <string name="theophilius_bagbiter">Theophilius Bagbiter</string>
+    <string name="tri_maf_contact">Tri-maf Contact</string>
+    <string name="mass_install">Mass Install</string>
+    <string name="q_coherence_chip">Q-Coherence Chip</string>
+    <string name="overmind">Overmind</string>
+    <string name="oracle_may">Oracle May</string>
+    <string name="donut_taganes">Donut Taganes</string>
+    <string name="domestic_sleepers">Domestic Sleepers</string>
+    <string name="next_silver">NEXT Silver</string>
+    <string name="lotus_field">Lotus Field</string>
+    <string name="mutate">Mutate</string>
+    <string name="primary_transmission_dish">Primary Transmission Dish</string>
+    <string name="midway_station_grid">Midway Station Grid</string>
+    <string name="the_root">The Root</string>
+    <string name="taurus">Taurus</string>
+    <string name="mother_goddess">Mother Goddess</string>
+    <string name="galahad">Galahad</string>
+    <string name="bad_times">Bad Times</string>
+    <string name="cyber_threat">Cyber Threat</string>
+    <string name="lamprey">Lamprey</string>
+    <string name="paper_tripping">Paper Tripping</string>
+    <string name="power_tap">Power Tap</string>
+    <string name="social_engineering">Social Engineering</string>
+    <string name="leprechaun">Leprechaun</string>
+    <string name="eden_shard">Eden Shard</string>
+    <string name="enhanced_login_protocol">Enhanced Login Protocol</string>
+    <string name="heinlein_grid">Heinlein Grid</string>
+    <string name="encrypted_portals">Encrypted Portals</string>
+    <string name="cerebral_static">Cerebral Static</string>
+    <string name="targeted_marketing">Targeted Marketing</string>
+    <string name="information_overload">Information Overload</string>
+    <string name="paywall_implementation">Paywall Implementation</string>
+    <string name="sealed_vault">Sealed Vault</string>
+    <string name="eden_fragment">Eden Fragment</string>
+    <string name="lag_time">Lag Time</string>
+    <string name="will_o__the_wisp">Will-o\'-the-Wisp</string>
+    <string name="d4v1d">D4v1d</string>
+    <string name="scrubbed">Scrubbed</string>
+    <string name="three_steps_ahead">Three Steps Ahead</string>
+    <string name="unscheduled_maintenance">Unscheduled Maintenance</string>
+    <string name="cache">Cache</string>
+    <string name="net_celebrity">Net Celebrity</string>
+    <string name="llds_energy_regulator">LLDS Energy Regulator</string>
+    <string name="ghost_runner">Ghost Runner</string>
+    <string name="iq">IQ</string>
+    <string name="eliza_s_toybox">Eliza\'s Toybox</string>
+    <string name="kitsune">Kitsune</string>
+    <string name="port_anson_grid">Port Anson Grid</string>
+    <string name="the_news_now_hour">The News Now Hour</string>
+    <string name="manhunt">Manhunt</string>
+    <string name="wendigo">Wendigo</string>
+    <string name="crisium_grid">Crisium Grid</string>
+    <string name="chronos_project">Chronos Project</string>
+    <string name="shattered_remains">Shattered Remains</string>
+    <string name="lancelot">Lancelot</string>
+    <string name="blackat">BlacKat</string>
+    <string name="duggar_s_first_contact">Duggar\'s First Contact</string>
+    <string name="box_e">Box-E</string>
+    <string name="the_supplier">The Supplier</string>
+    <string name="refractor">Refractor</string>
+    <string name="order_of_sol">Order of Sol</string>
+    <string name="hades_shard">Hades Shard</string>
+    <string name="rachel_beckman">Rachel Beckman</string>
+    <string name="architect">Architect</string>
+    <string name="peak_efficiency">Peak Efficiency</string>
+    <string name="labyrinthine_servers">Labyrinthine Servers</string>
+    <string name="ashigaru">Ashigaru</string>
+    <string name="mamba">Mamba</string>
+    <string name="reversed_accounts">Reversed Accounts</string>
+    <string name="universal_connectivity_fee">Universal Connectivity Fee</string>
+    <string name="blue_sun_powering_the_future">Blue Sun: Powering the Future</string>
+    <string name="changeling">Changeling</string>
+    <string name="reuse">Reuse</string>
+    <string name="hades_fragment">Hades Fragment</string>
+    <string name="docklands_crackdown">Docklands Crackdown</string>
+    <string name="inject">Inject</string>
+    <string name="origami">Origami</string>
+    <string name="fester">Fester</string>
+    <string name="autoscripter">Autoscripter</string>
+    <string name="switchblade">Switchblade</string>
+    <string name="trade_in">Trade-In</string>
+    <string name="astrolabe">Astrolabe</string>
+    <string name="angel_arena">Angel Arena</string>
+    <string name="bifrost_array">Bifrost Array</string>
+    <string name="sagittarius">Sagittarius</string>
+    <string name="hostile_infrastructure">Hostile Infrastructure</string>
+    <string name="gemini">Gemini</string>
+    <string name="license_acquisition">License Acquisition</string>
+    <string name="daily_business_show">Daily Business Show</string>
+    <string name="superior_cyberwalls">Superior Cyberwalls</string>
+    <string name="executive_boot_camp">Executive Boot Camp</string>
+    <string name="lycan">Lycan</string>
+    <string name="snatch_and_grab">Snatch and Grab</string>
+    <string name="merlin">Merlin</string>
+    <string name="shell_corporation">Shell Corporation</string>
+    <string name="ekomind">Ekomind</string>
+    <string name="cerberus_cuj_0_h3">Cerberus "Cuj.0" H3</string>
+    <string name="leela_patel_trained_pragmatist">Leela Patel: Trained Pragmatist</string>
+    <string name="cerberus_rex_h2">Cerberus "Rex" H2</string>
+    <string name="zona_sul_shipping">Zona Sul Shipping</string>
+    <string name="cybsoft_macrodrive">Cybsoft MacroDrive</string>
+    <string name="cerberus_lady_h1">Cerberus "Lady" H1</string>
+    <string name="utopia_shard">Utopia Shard</string>
+    <string name="helium_3_deposit">Helium-3 Deposit</string>
+    <string name="errand_boy">Errand Boy</string>
+    <string name="it_department">IT Department</string>
+    <string name="markus_1_0">Markus 1.0</string>
+    <string name="industrial_genomics_growing_solutions">Industrial Genomics: Growing Solutions</string>
+    <string name="turtlebacks">Turtlebacks</string>
+    <string name="shoot_the_moon">Shoot the Moon</string>
+    <string name="troll">Troll</string>
+    <string name="virgo">Virgo</string>
+    <string name="utopia_fragment">Utopia Fragment</string>
+    <string name="excalibur">Excalibur</string>
+    <string name="self_destruct">Self-destruct</string>
+    <string name="incubator">Incubator</string>
+    <string name="ixodidae">Ixodidae</string>
+    <string name="code_siphon">Code Siphon</string>
+    <string name="collective_consciousness">Collective Consciousness</string>
+    <string name="sage">Sage</string>
+    <string name="bribery">Bribery</string>
+    <string name="au_revoir">Au Revoir</string>
+    <string name="earthrise_hotel">Earthrise Hotel</string>
+    <string name="argus_security">Argus Security</string>
+    <string name="gagarin_deep_space">Gagarin Deep Space</string>
+    <string name="titan_transnational">Titan Transnational</string>
+    <string name="firmware_updates">Firmware Updates</string>
+    <string name="glenn_station">Glenn Station</string>
+    <string name="government_takeover">Government Takeover</string>
+    <string name="high_risk_investment">High-Risk Investment</string>
+    <string name="constellation_protocol">Constellation Protocol</string>
+    <string name="mark_yale">Mark Yale</string>
+    <string name="space_camp">Space Camp</string>
+    <string name="the_board">The Board</string>
+    <string name="asteroid_belt">Asteroid Belt</string>
+    <string name="wormhole">Wormhole</string>
+    <string name="nebula">Nebula</string>
+    <string name="orion">Orion</string>
+    <string name="builder">Builder</string>
+    <string name="checkpoint">Checkpoint</string>
+    <string name="fire_wall">Fire Wall</string>
+    <string name="searchlight">Searchlight</string>
+    <string name="housekeeping">Housekeeping</string>
+    <string name="patch">Patch</string>
+    <string name="traffic_accident">Traffic Accident</string>
+    <string name="satellite_grid">Satellite Grid</string>
+    <string name="the_twins">The Twins</string>
+    <string name="sub_boost">Sub Boost</string>
+    <string name="dedicated_technician_team">Dedicated Technician Team</string>
+    <string name="cyberdex_virus_suite">Cyberdex Virus Suite</string>
+    <string name="edward_kim">Edward Kim</string>
+    <string name="maxx">MaxX</string>
+    <string name="valencia_estevez">Valencia Estevez</string>
+    <string name="amped_up">Amped Up</string>
+    <string name="i_ve_had_worse">I\'ve Had Worse</string>
+    <string name="itinerant_protesters">Itinerant Protesters</string>
+    <string name="showing_off">Showing Off</string>
+    <string name="wanton_destruction">Wanton Destruction</string>
+    <string name="day_job">Day Job</string>
+    <string name="forked">Forked</string>
+    <string name="knifed">Knifed</string>
+    <string name="spooned">Spooned</string>
+    <string name="eater">Eater</string>
+    <string name="gravedigger">Gravedigger</string>
+    <string name="hivemind">Hivemind</string>
+    <string name="progenitor">Progenitor</string>
+    <string name="archives_interface">Archives Interface</string>
+    <string name="chop_bot_3000">Chop Bot 3000</string>
+    <string name="memstrips">MemStrips</string>
+    <string name="vigil">Vigil</string>
+    <string name="human_first">Human First</string>
+    <string name="investigative_journalism">Investigative Journalism</string>
+    <string name="sacrificial_clone">Sacrificial Clone</string>
+    <string name="stim_dealer">Stim Dealer</string>
+    <string name="virus_breeding_ground">Virus Breeding Ground</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="qianju_pt">Qianju PT</string>
+    <string name="data_folding">Data Folding</string>
+
+</resources>
